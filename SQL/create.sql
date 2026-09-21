@@ -1,0 +1,9 @@
+CREATE DATABASE Anime;
+
+USE Anime;
+
+CREATE TABLE Watch (
+  id INT NOT NULL,   
+  Name VARCHAR(100) NOT NULL,
+  Rating TINYINT(10)
+);
