@@ -1,16 +1,18 @@
 #include <stdio.h>
 
-int main()
-{
-    int a = 1;
+int main() {
+    int i = 1;
+    int n;
 
-    if(a == 1)
-        goto display;
+    printf("Enter a Number: ");
+    scanf("%d", &n);
 
-    printf("Hello");
+Start:
+    if (i > n) goto End;
+    printf("%d\n", i);
+    i++;
+    goto Start;
 
-    display:
-    printf("Welcome to C Programming");
-
+End:
     return 0;
 }
