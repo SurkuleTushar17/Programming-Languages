@@ -3,7 +3,6 @@ int main(){
 	int i,j,n;
 	int a,b;
 	
-	
 	printf("Enter a Rows: ");
 	scanf("%d", &a);
 	printf("Enter a Column: ");
