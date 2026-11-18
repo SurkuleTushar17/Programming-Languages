@@ -1,0 +1,87 @@
+body {
+    background-color: #f1f5f9;
+    color: #1e293b;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.status-card {
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #eff6ff
+    );
+
+    color: #1e293b;
+
+    padding: 28px;
+    border-radius: 16px;
+}
+
+.eyebrow {
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h1 {
+    color: #0f172a;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.description {
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.status {
+    background-color: #dcfce7;
+    color: #166534;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.metric {
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.metric-label {
+    color: #64748b;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.metric h2 {
+    color: #0f172a;
+    font-size: 28px;
+}
+
+.growth {
+    color: #16a34a;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.availability h2 {
+    color: #16a34a;
+    font-size: 25px;
+}
+
+footer {
+    color: #94a3b8;
+    font-size: 12px;
+    font-style: italic;
+}
