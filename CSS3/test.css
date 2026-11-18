@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #334155;
+}
+
+p {
+    color: black;
+}
+
+.message {
+    color: blue;
+}
+
+#special {
+    color: green;
+}
+
+.message {
+    font-weight: bold;
+    background-color: #fff3cd;
+}
+
+.parent {
+    color: purple;
+    border: 2px solid purple;
+    padding: 15px;
+}
