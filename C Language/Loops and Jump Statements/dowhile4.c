@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int i = 1;
+
+    do
+    {
+        printf("Sqauare of %d = %d\n",i, i * i);
+        i++;
+    }
+    while (i <= 10);
+
+    return 0;
+}
